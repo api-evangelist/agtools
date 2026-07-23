@@ -1,7 +1,30 @@
 aid: agtools
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agtools.png
 name: AGTools
-description: AGTools is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Agtools, Inc. is an agricultural technology (AgTech) company providing a
+  real-time data analytics and market-intelligence SaaS platform for the global
+  food supply chain. The platform aggregates and curates hundreds of official
+  government, institutional, university, and weather data sources covering 450+
+  specialty crops and commodities across 189+ countries, exposing 70+ variables
+  and 25+ years of historical records (pricing, supply, demand, exchange rates,
+  weather, CO2 footprint, and transportation costs) through dashboards, daily
+  commodity reports, and a price analyzer so growers, shippers, buyers, and
+  retailers can forecast demand, manage purchase orders, and reduce food waste.
+  Founded in 2017 and headquartered in Irvine, California, Agtools is a Techstars
+  Farm to Fork alumnus and Microsoft Machine Learning & AI award winner. No
+  public developer API or OpenAPI surface has been published to date.
 url: https://raw.githubusercontent.com/api-evangelist/agtools/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +37,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Data Analytics
+- Food Supply Chain
+- Commodities
+- Market Intelligence
+- Forecasting
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/agtools-domain-security.yml
 - type: Website
-  url: https://ag.tools/
+  url: https://agtechtools.com/
+- type: Blog
+  url: https://agtechtools.com/news-blog/
+- type: Pricing
+  url: https://agtechtools.com/suscription/
+- type: SignUp
+  url: https://my.ag.tools/packages
+- type: Support
+  url: https://agtechtools.com/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

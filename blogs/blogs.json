@@ -1,0 +1,14 @@
+{
+  "repo": "agtools",
+  "feeds": [
+    {
+      "source": "https://agtechtools.com/",
+      "feed_url": "https://agtechtools.com/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-20T13:31:34Z"
+}
